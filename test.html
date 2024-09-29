@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Navbar with Scroll</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Enable smooth scrolling */
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+<body class="font-sans ">
+
+  <!-- Navigation Bar -->
+  <nav class="bg-blue-500 p-4 fixed top-0 w-full z-50">
+    <ul class="flex justify-center space-x-4 text-white">
+      <li><a href="#section1" class="hover:text-yellow-300">Section 1</a></li>
+      <li><a href="#section2" class="hover:text-yellow-300">Section 2</a></li>
+      <li><a href="#section3" class="hover:text-yellow-300">Section 3</a></li>
+      <li><a href="#section4" class="hover:text-yellow-300">Section 4</a></li>
+    </ul>
+  </nav>
+
+  <!-- Content Sections -->
+  <section id="section1" class="h-screen bg-gray-100 flex items-center justify-center">
+    <h1 class="text-4xl">Section 1</h1>
+  </section>
+  <section id="section2" class="h-screen bg-gray-200 flex items-center justify-center">
+    <h1 class="text-4xl">Section 2</h1>
+  </section>
+  <section id="section3" class="h-screen bg-gray-300 flex items-center justify-center">
+    <h1 class="text-4xl">Section 3</h1>
+  </section>
+  <section id="section4" class="h-screen bg-gray-400 flex items-center justify-center">
+    <h1 class="text-4xl">Section 4</h1>
+  </section>
+
+</body>
+</html>
