@@ -9,6 +9,7 @@ module.exports = {
       Greater: "Great Vibes",
       japanease: "Noto Serif JP",
       Abel: "Abel",
+      EduLite:"Edu QLD Beginner"
     },
     extend: {
       backgroundImage: {
